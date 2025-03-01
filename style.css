@@ -1,0 +1,122 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+
+}
+
+.container-navbar {
+    background-color: #333;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    background-color: none;
+    list-style-type: none;
+    padding: 15px;
+    color: white;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.li-navbar:hover {
+    background-color: grey;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: none;
+    width: 220px;
+    height: 340px;
+    text-decoration: none;
+}
+.a-content2 {
+    background-color: none;
+    width: 360px;
+    height: 220px;
+    text-decoration: none;
+}
+
+.a-content3 {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    width: 480px;
+    height: 360px;
+}
+
+.img-content {
+    width: 100%;
+    height: 95%;
+    border-radius: 10px;
+    background-color: none;
+}
+
+.img-content2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: none;
+}
+
+.img-content3 {
+    display: flex;
+    width: 60%;
+    height: 80%;
+    flex-direction: column;
+}
+
+.p-content {
+    color: black;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    background-color: #333;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+   
+}
